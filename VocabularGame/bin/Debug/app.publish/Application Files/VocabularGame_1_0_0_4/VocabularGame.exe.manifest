@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VocabularGame.exe" version="1.0.0.4" publicKeyToken="6b60b9b2733cbd04" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="download_vvu_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VocabularGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VocabularGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VocabularGame.exe" size="85984">
+      <assemblyIdentity name="VocabularGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7L7xFBjtvNfqulPuzffV6dQqrs/fSz7cahT16tzoLXc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="download_vvu_icon.ico" size="4700">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DxRqBfnY+NJxFVs/KDzyiCyA5IpDXgQ6TiTVeCYFzKc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VocabularGame.exe.config" size="580">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GhUMoRU1t+GWITvouFw1ZAWhrStEjzOhU/5w+NlgOSE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-UBDGSPK\cmsst" issuerKeyHash="dd8f90c54128f46afa4d5643a8d503bb86d219cf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4S2GSCCLk3dw6IESID6r+ZelUIoC58VFU5zlvp2bfnM=</DigestValue></Reference></SignedInfo><SignatureValue>d0oha7o94qz7NCKzPzwM5oFWLR16O52A4E3hpyiObW/zMVGTF/SziARn/JK5Hj6uwZRzNjNGeu3vE2NCcE/ifumaLKn35P3pkhzaJs85VmbppoBQFW4cKin0gqdGhUr7+IcXZ+flTx8BQvt/iVkgo4a9N6E6JTczQoujjYX/csU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xMiz/ZSe/503WV7x+HehFIy0Bd3w1MsCx9w7iCvGGTKuYdli0Onqb/5nGOtAxnsfWfk+FEYgEK9lYG/TfJ0YptL20A+irGNWye4r0mk7HwTy3Rn7u0MfrMTAk19EYB2XfasDY2LSzFfOzw+oJeGjSMV+VV8lywS4P2XLUO4Debk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="737e9b9dbee59c5345c5e7028a50a597f9ab3e201281e87077938b2048862de1" Description="" Url=""><as:assemblyIdentity name="VocabularGame.exe" version="1.0.0.4" publicKeyToken="6b60b9b2733cbd04" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-UBDGSPK\cmsst</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3d8IP5FRVH+1qQdbaJr9DnAxE/2NVJZm95EYRieIHb0=</DigestValue></Reference></SignedInfo><SignatureValue>DpEvAhSoq5ukCJMonJzzXCUL3HmDtWFfXrSZF6XUQ5gyX+n3nc5FFMS2V8yDt0/xF8+R+8A5esg13Mio/jIg97k4Xl0pwoaoBbZcYfF3dmCwsiu0yWbu+KXioS8hsjx/epyV03C2ATNs+cD6XBd3gAJq+0CtF54PX5RTukhvtZE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xMiz/ZSe/503WV7x+HehFIy0Bd3w1MsCx9w7iCvGGTKuYdli0Onqb/5nGOtAxnsfWfk+FEYgEK9lYG/TfJ0YptL20A+irGNWye4r0mk7HwTy3Rn7u0MfrMTAk19EYB2XfasDY2LSzFfOzw+oJeGjSMV+VV8lywS4P2XLUO4Debk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZAIDUddWWqdPxLvECQNhDTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUAQgBEAEcAUwBQAEsAXABjAG0AcwBzAHQwHhcNMTkwNzEyMDkzNjA0WhcNMjAwNzExMTUzNjA0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUAQgBEAEcAUwBQAEsAXABjAG0AcwBzAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMTIs/2Unv+dN1le8fh3oRSMtAXd8NTLAsfcO4grxhkyrmHZYtDp6m/+ZxjrQMZ7H1n5PhRGIBCvZWBv03ydGKbS9tAPoqxjVsnuK9JpOx8E8t0Z+7tDH6zEwJNfRGAdl32rA2Ni0sxXzs8PqCXho0jFflVfJcsEuD9ly1DuA3m5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAj7DoHtlhTssIqhvzIR3rsL/IZvRdZQR7jqz3ojpJwa/rGrKyRSXb7MlaSd5g79nHTI0ENccT/UgcUVMYRltxBa80gJ9xRoqfDwLlHnZFQVr5zTeYy7xekw+qssO5VjE3N0Jm6LWnuwO+g+st8tLqUhAR7GpJTK0DZa1o7ME+zOA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
